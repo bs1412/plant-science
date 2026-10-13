@@ -1,0 +1,31 @@
+.index-top{
+	width: 1500px;
+	height: 80px;
+	background-color: greenyellow;
+	display: flex;
+}
+.first-a{
+	margin: 5px;
+	margin-left: 200px;
+	padding-top: 18px;
+	border-radius: 5px;
+}
+.first-a:hover{
+	background-color: aqua;
+}
+.topp{
+	padding-top: 18px;
+	margin: 5px;
+	margin-left: 30px;
+	border-radius: 5px;
+}
+.topp:hover{
+	background-color: aqua;
+}
+.indextext{
+	border: 5px solid #ff5;
+	margin: 5px;
+	margin-bottom: 50px;
+	padding: 10px;
+	background-color: greenyellow;
+}

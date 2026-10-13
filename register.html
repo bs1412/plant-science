@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/register.css" />
+		<style>
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="regtop">
+			<h1 style="font-family: '微软雅黑'; font-size: 24px;">植物简单科普网站注册</h1>
+		</div>
+		<div style="display: flex;">
+			<div class="regreg">
+			<table cellpadding="5px">
+			    <tr>
+					<td></td>
+			        <td colspan="2" align="left">注册</td>
+			    </tr>
+			    <tr>
+			        <td align="right">植物爱好者化名:</td>
+			        <td>
+			            <input type="text" id="username" autocomplete="off" placeholder="请输入化名">
+			        </td>
+			    </tr>
+			    <tr>
+			        <td align="right">密码:</td>
+			        <td>
+			            <input type="password" id="password" placeholder="请输入密码">
+			        </td>
+			    </tr>
+			    <tr>
+			        <td align="right">确认密码:</td>
+			        <td>
+			            <input type="password" id="repassword" placeholder="请确认密码">
+			        </td>
+			    </tr>
+				<tr>
+				    <td align="right">手机号:</td>
+				    <td>
+				        <input type="tel" id="telephone" name="telephone" placeholder="请输入手机号">
+				    </td>
+				</tr>
+				<tr>
+				    <td align="right">年龄:</td>
+				    <td>
+				        <input type="number" id="age" max="200" min="0" placeholder="请输入年龄">
+				    </td>
+				</tr>
+			    <tr>
+			        <td>&nbsp;</td>
+			        <td>
+			            <input type="button" value="注册" id="reg" onclick="reg()">
+			        </td>
+			    </tr>
+			</table>
+			</div>
+			<div >
+				<img src="img/log2.jpeg" style="width: 424px; height: 600px;"/>
+			</div>
+			<div >
+				<img src="img/log1.jpg" style="width: 420px; height: 600px;"/>
+			</div>
+		</div>
+		<script src="js/register.js"></script>
+	</body>
+</html>
